@@ -1,4 +1,4 @@
-# RUN AWS Academy git clone https://github.com/rmit-sdo-2024-s2/cosc2759-sem1-2024-labs
+## RUN AWS Academy git clone https://github.com/rmit-sdo-2024-s2/cosc2759-sem1-2024-labs
 
 cd lab08 echo "" > ~/.aws/credenxxxxx vim ~/.aws/credenxxxxx #make sure credentials are working aws s3 ls curl ifconfig.co #131.170.239.16 vim infra/you.auto.tfvars #Updte IP #Replace lab09 references to lab08 in deploy-fixtures.sh chmod +x deploy-fixtures.sh ./deploy-fixtures.sh #appbox_public_hostname = "ec2-107-23-221-105.compute-1.amazonaws.com" #logbox_public_hostname = "ec2-54-198-25-168.compute-1.amazonaws.com" #See appbox_public_hostname value curl http://ec2-107-23-221-105.compute-1.amazonaws.com
 
